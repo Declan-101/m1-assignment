@@ -1,0 +1,89 @@
+/*Header*/
+header {
+    width: 100%;
+    min-height: 400px;
+    padding-top: 3em;
+}
+#home header {
+    background: no-repeat rgba(243, 165, 247, 0.848) url('images/animals.png');
+    background-size: 1050px;
+    background-position: center;
+}
+
+/*Heading Centered*/
+header h1 {
+    text-align: center;
+    margin-bottom: 0px
+}
+
+/*Navigation*/
+.main-menu {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   padding: 0px 1000px;
+   box-sizing: border-box;
+}
+
+/* partners */
+
+section {
+    width: 100%;
+    background-color: #4288c3;
+}
+
+section #partners {
+    width: 1200px;
+    padding: 2em 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section #partners .partner {
+    display: inline-block;
+    margin: 0 4em;
+    padding: 0 0;
+    background-color: #fff;
+    border-radius: 10em;
+}
+
+section #partners .partner img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    background-color: #4d8dc2;
+    padding: 40px;
+}
+
+.animal {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.animal img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.animal img:hover {
+    transform: scale(1.05);
+}
+
+.animal span {
+    display: block;
+    margin-top: 10px;
+}
